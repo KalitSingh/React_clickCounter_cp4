@@ -1,0 +1,44 @@
+.counterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  height: 100vh;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+.counter {
+  color: #c20a72;
+}
+.para {
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .para {
+    font-size: 28px;
+  }
+}
+.button {
+  width: 120px;
+  height: 38px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  font-family: 'Roboto';
+  border-width: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: hotpink;
+}
